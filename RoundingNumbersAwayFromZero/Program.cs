@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace RoundingNumbersAwayFromZero
 {
@@ -6,18 +7,36 @@ namespace RoundingNumbersAwayFromZero
     {
         static void Main()
         {
-            string[] inputNums = Console.ReadLine().Split(' ');
-            double[] numbers = new double[inputNums.Length];
+			//var nums = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
 
-            var current = double.Parse(inputNums[0]);
 
-            for (int i = 0; i < inputNums.Length - 1; i++)
+			//for (int i = 0; i < nums.Length - 1; i++)
+			//{
+			//    var converted = Convert.ToDouble(nums[i]);
+			//}
+
+
+
+			//Console.WriteLine(string.Join(" ", nums));
+
+			string input = Console.ReadLine();
+
+            string[] items = input.Split();
+
+            double[] numbers = new double[items.Length];
+
+
+            for (int i = 0; i < items.Length; i++)
+
             {
 
-                numbers[i] = double.Parse(inputNums[i]);
+                numbers[i] = double.Parse(items[i]);
+
+                Console.WriteLine(items[i] + " => " + Math.Round(numbers[i]));
+
             }
 
-            Console.WriteLine(string.Join(" ", numbers));
         }
+
     }
 }

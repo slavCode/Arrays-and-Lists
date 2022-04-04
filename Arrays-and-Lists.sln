@@ -15,11 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundingNumbersAwayFromZero
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAnArrayOfStrings", "ReverseAnArrayOfStrings\ReverseAnArrayOfStrings.csproj", "{2EB90925-07DF-41DA-A393-A895F6BCEFDB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94EE4751-93E0-410B-BD5D-94C76445DC81}"
-	ProjectSection(SolutionItems) = preProject
-		..\04. Programming-Fundamentals-Arrays-and-Lists-Lab.docx = ..\04. Programming-Fundamentals-Arrays-and-Lists-Lab.docx
-		..\04. Programming-Fundamentals-Arrays-and-Lists.pptx = ..\04. Programming-Fundamentals-Arrays-and-Lists.pptx
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrays", "SumArrays\SumArrays.csproj", "{847FB29F-3CE2-45B3-9B9C-E2E591A8E5F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{4737B90D-051B-4370-B1D4-0BBA2BE958EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +49,14 @@ Global
 		{2EB90925-07DF-41DA-A393-A895F6BCEFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB90925-07DF-41DA-A393-A895F6BCEFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB90925-07DF-41DA-A393-A895F6BCEFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847FB29F-3CE2-45B3-9B9C-E2E591A8E5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847FB29F-3CE2-45B3-9B9C-E2E591A8E5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847FB29F-3CE2-45B3-9B9C-E2E591A8E5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847FB29F-3CE2-45B3-9B9C-E2E591A8E5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4737B90D-051B-4370-B1D4-0BBA2BE958EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4737B90D-051B-4370-B1D4-0BBA2BE958EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4737B90D-051B-4370-B1D4-0BBA2BE958EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4737B90D-051B-4370-B1D4-0BBA2BE958EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
