@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace ExtractMiddle_neTwoOrThreeElements
+namespace ExtractMiddleOneTwoOrThreeElements
 {
     internal class Program
     {

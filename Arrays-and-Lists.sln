@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumArrays", "SumArrays\SumA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondenseArrayToNumber", "CondenseArrayToNumber\CondenseArrayToNumber.csproj", "{4737B90D-051B-4370-B1D4-0BBA2BE958EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMiddle)neTwoOrThreeElements", "ExtractMiddle)neTwoOrThreeElements\ExtractMiddle)neTwoOrThreeElements.csproj", "{F0542368-368C-4EAD-9A4A-8930C7FAC143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractMiddleOneTwoOrThreeElements", "ExtractMiddle)neTwoOrThreeElements\ExtractMiddleOneTwoOrThreeElements.csproj", "{F0542368-368C-4EAD-9A4A-8930C7FAC143}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
